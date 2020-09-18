@@ -1,4 +1,4 @@
-export declare type Action = {
-    type: string;
-    payload: any;
-  };
+export interface Type {
+	type: string;
+	payload: any;
+}

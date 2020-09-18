@@ -1,7 +1,6 @@
-export function createAction(type:string, payload:any) {
-    return {
-      type,
-      payload,
-    };
-  }
-  
+export function createAction(type: string, payload: any) {
+	return {
+		type,
+		payload,
+	};
+}

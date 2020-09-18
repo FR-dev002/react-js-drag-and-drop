@@ -1,13 +1,12 @@
-
 export interface HttpHeader {
-    ContentType?: string; 
-    'Content-Type'?: string; 
-    Authorization?: string;
-    Accept?: string;
+	ContentType?: string;
+	"Content-Type"?: string;
+	Authorization?: string;
+	Accept?: string;
 }
 
 export interface PostRequestInterface {
-    url:string;
-    headers?:HttpHeader;
-    payload?:object;
+	url: string;
+	headers?: HttpHeader;
+	payload?: {};
 }
