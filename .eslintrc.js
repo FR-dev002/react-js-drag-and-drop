@@ -1,7 +1,10 @@
 module.exports = {
    extends: [
       'codingitwrong',
+      'plugin:prettier/recommended',
+      'prettier/react'
    ],
+
    parser: "babel-eslint",
    plugins: [
       "cypress",
