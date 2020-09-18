@@ -1,8 +1,16 @@
 root = true
 
-[.tsx]
+[*]
 indent_style = tab
-indent_size = 2
 charset = utf-8
 trim_trailing_whitespace = false
 insert_final_newline = false
+charset = utf-8
+trim_trailing_whitespace = false
+insert_final_newline = false
+
+[.js]
+indent_size = 2
+
+[.tsx]
+indent_size = 2
