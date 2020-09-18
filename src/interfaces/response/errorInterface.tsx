@@ -24,10 +24,16 @@ export interface ErrorHeaderInterface {
 }
 
 
-export interface ErrorResponseInterface  {
+export interface ResponseInterface  {
     data: any;
     status: number;
     message: string;
     headers?: ErrorHeaderInterface;
     config?: ErrorConfigInterface;
+}
+
+export const initialResponse: ResponseInterface = {
+    data: {},
+    status: 0,
+    message: ''
 }

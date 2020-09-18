@@ -1,7 +1,11 @@
-export interface Password { password: string};
-export interface Username { username: string};
-
 export interface AuthInterface  {
-  username: Password;
-  password: Username;
+  username: string;
+  password: string;
+};
+
+export interface RegisterInterface  {
+  username: string;
+  password: string;
+  email: string;
+  firstName: string;
 };

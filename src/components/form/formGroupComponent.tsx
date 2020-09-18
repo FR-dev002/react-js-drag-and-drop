@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React from "react";
 import { Form } from "react-bootstrap";
 
 
@@ -10,6 +10,7 @@ interface Props {
   label: string;
   placeholder: string;
   name: string;
+  control?: any;
   type: string;
   validation?: any;
 }
@@ -24,8 +25,6 @@ const FormGroupComponent: React.FC<Props> = React.memo(({
   type,
   validation
 }) => {
-  const ref = useRef(0);
-  
   return (
     <Form.Group controlId={controlId}>
       <Form.Label>{label}</Form.Label>
